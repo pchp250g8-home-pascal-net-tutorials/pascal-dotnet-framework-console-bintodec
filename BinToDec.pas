@@ -23,9 +23,10 @@ begin
 		nDecNum += (nBinDight * nBinPower);
 		nBinPower *= 2;
 	end;
-	WriteLn
+	Console.WriteLine
 	(
-	  'The decenary equivalent of the binary number ', strLine, ' is: ',
+	  'The decenary equivalent of the binary number {0} is: {1}', 
+	  strLine,
 	  nDecNum
 	);
 	Console.Read();
