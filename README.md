@@ -1,4 +1,4 @@
-BinToDec. Pascal Tutorials. Platform DotNet FrameWork. Algorithms. Strings. Simple Input/Output. Console Application. 
+BinToDec. Pascal Tutorials. Platform DotNet FrameWork. Algorithms. Strings. Simple Input/Output. Console Application.
 A console application in the Pascal programming language. 
 The program does the following:
   1. Asks the user to enter a string.
