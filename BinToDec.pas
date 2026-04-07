@@ -14,13 +14,13 @@ begin
 	var bIsMatch := oRegEx.IsMatch(strLine);
 	var bRightString := (nStrLen <= nMaxBinaryLen) and bIsMatch;
 	if not bRightString then
-  begin
+    begin
 		Console.WriteLine('Wrong binary number format!!!');
 		Console.Read();
 		exit();
 	end;
 	for var i : integer := 1 to nStrLen do
-  begin
+    begin
 		var nBinDight : integer := ord(strLine[nStrLen + 1 - i]) - ord('0');
 		nDecNum += (nBinDight * nBinPower);
 		nBinPower *= 2;
