@@ -27,7 +27,7 @@ begin
 	end;
 	Console.WriteLine
 	(
-	  'The decenary equivalent of the binary number {0} is: {1}', 
+	  'The decimal equivalent of the binary number {0} is: {1}', 
 	  strLine,
 	  nDecNum
 	);
